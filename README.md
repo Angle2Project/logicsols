@@ -1,6 +1,5 @@
 ![Logicsols](src/img/header-logo.png)
-
-# Logicsols
+#
 
 
 run **npm i**
