@@ -81,6 +81,7 @@ header {
 		height: 40px;
 		position: relative;
 		margin-right: -10px;
+		display: none;
 		.on-white {
 			width: 28px;
 			height: 20px;
@@ -213,7 +214,7 @@ body.menu {
 		transform: translateY(0)!important;
 		background-color: transparent;
 		box-shadow: none;
-		.nav-button {
+		.nav-button {			
 			.on-white,
 			.on-green {
 				transform: scale(0);

@@ -197,18 +197,25 @@ let appInit = function(){
 // Initial state
 var scrollPos = 0;
 // adding scroll event
-$(document).scroll(function(e){  
+$(document).scroll(function(e){
+  if($('body').hasClass('login') || $('body').hasClass('register'))return
   if($(document).scrollTop() > 0){
     $('header').addClass('scroll');
   }else{
     $('header').removeClass('scroll');
-  }
-  if ((document.body.getBoundingClientRect()).top > scrollPos)
-  $('header').css('transform', 'translateY(0%)');
-	else
-    $('header').css('transform', 'translateY(-100%)');
-	// saves the new position for iteration.
-	scrollPos = (document.body.getBoundingClientRect()).top;
+  }    
+  if ((document.body.getBoundingClientRect()).top > scrollPos){
+    if($(document).scrollTop() > 200){
+      $('header').css('transform', 'translateY(0%)');
+    }    
+  }else{
+    if($(document).scrollTop() > 200){
+      $('header').css('transform', 'translateY(-100%)');
+    }        
+  } 
+  // saves the new position for iteration.    
+  scrollPos = (document.body.getBoundingClientRect()).top; 
+    
 });
 
 
