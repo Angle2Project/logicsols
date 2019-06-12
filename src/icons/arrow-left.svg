@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="14px" viewBox="0 0 28 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>arrow left</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-1" transform="translate(-869.000000, -1317.000000)" fill="#D1DADC">
+            <g id="Frame-2" transform="translate(-435.000000, 675.901996)">
+                <g id="Group-4" transform="translate(69.184666, 0.000000)">
+                    <polygon id="arrow-left" transform="translate(1248.500000, 648.500000) scale(-1, 1) translate(-1248.500000, -648.500000) " points="1255.45374 642 1253.48723 643.952624 1256.67621 647.119078 1235 647.119078 1235 649.880922 1256.67621 649.880922 1253.48723 653.047376 1255.45374 655 1262 648.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

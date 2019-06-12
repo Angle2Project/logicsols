@@ -1,0 +1,538 @@
+@media screen and (max-width: 1200px){
+  .wrapper {
+    padding: 0 24px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+
+  header {
+    .wrapper {
+      justify-content: space-between;
+    }
+    .logo {
+      width: 150px;
+    }
+    nav {
+      margin: 0;
+    }
+    .sign {
+      margin-left: 0;
+    }
+  }
+
+  article.hero {
+    .hero__bg {
+      left: auto;
+      right: -625px;
+      transform: scale(0.9);
+      top: -40px;
+      .bg-2 {
+        left: 326px;
+      }
+      .bg-comp {
+        left: 468px;
+        top: 225px;
+      }
+      .barge {
+        top: 225px;
+        left: 350px;
+      }
+      .track {
+        top: 540px;
+        left: 736px;
+      }
+      .airplane {
+        top: 208px;
+        left: 680px;
+      }
+    }
+    h1 {
+      font-size: 40px;
+      width: 450px;
+    }
+  }
+  article.slider {
+    overflow: hidden;
+    .slider__left {
+      width: 475px;
+      .swiper-slide {
+        width: 475px;
+        height: 367px;
+      }
+    }
+    .slider__right {
+      margin: 25px 0 0 64px;
+      .swiper-container {
+        width: 400px;
+        .swiper-slide {
+          width: 400px;
+          font-size: 32px;
+        }
+      }
+      .slider__navigation {
+        margin-top: 45px;
+      }
+    }
+  }
+  article.services {
+    .services__title {
+      font-size: 16px;
+    }
+    .services__list {
+      h3 {
+        font-size: 36px;
+      }
+      li.bulk-cargo {
+        .left {
+          margin-left: 5%;
+        }
+        .right {
+          width: 45%;
+        }
+      }
+      li.marine-surveys {
+        .left {
+          width: 45%;
+        }
+        .right {
+          margin-right: 5%;
+        }
+      }
+      li.general-cargo {
+        .left {
+          margin-left: 5%;
+        }
+        .right {
+          width: 45%;
+        }
+      }
+    }
+  }
+  .article.other-services {
+    h2 {
+      font-size: 28px;      
+    }
+    .other__list {
+      li {
+        img {
+          width: 100px;
+        }
+        b {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  article.mission {
+    .mission__title {
+      font-size: 16px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  footer {
+    .footer__logo {
+      width: 300px;
+    }
+  } 
+  .login main .wrapper .register__bg,
+  .register main .wrapper .register__bg {
+    left: 510px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+  header {
+    height: 57px;
+    .logo {
+      width: 142px;
+    }
+    nav {
+      display: none;
+    }
+  }
+  article.hero {
+    height: 727px;
+    .wrapper {
+      height: 100%;
+      padding-top: 57px;
+    }
+    .hero__bg {
+      transform: scale(0.8);
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      .bg-1 {
+        height: 480px;
+        position: absolute;
+        top: -91px;
+        left: 215px;
+        img {
+          height: 100%;
+        }
+      }
+      .bg-2 {
+        left: 128px;
+        top: 525px;
+      }
+      .bg-comp {
+        left: 265px;
+        top: 337px;
+      }
+      .barge {
+        width: 262px;
+        height: auto;
+        top: 430px;
+        left: 158px;
+      }
+      .track {
+        top: 656px;
+        left: 530px;
+      }
+      .airplane {
+        top: 320px;
+        left: 498px;
+      }
+    }
+    .hero__body {
+      margin-top: 86px;
+      width: 297px;
+      h1 {
+        width: auto;
+        font-size: 50px;  
+        line-height: normal;
+      }
+      .btn {
+        margin-top: 16px;
+      }
+      .hero__description {
+        display: none;
+      }
+    }
+  }
+
+  article.slider {
+    margin-top: 87px;
+    min-height: auto;
+    .wrapper {
+      padding-top: 70px;
+      flex-direction: column;
+      position: relative;
+    }
+    .slider__bg {
+      left: auto;
+      right: 85px;
+      img {
+        height: 94vw;
+        max-height: 470px;
+      }      
+    }
+    .slider__left {
+      width: calc(100vw - 66px);
+      height: 65vw;
+      max-width: 500px;
+      max-height: 370px;
+      margin: auto;
+      .swiper-slide {
+        width: calc(100vw - 66px);
+        height: 65vw;
+        max-width: 500px;
+        max-height: 370px;
+      }
+    }
+    .slider__right {
+      margin: 52px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      h5 {
+        position: absolute;
+        top: -37px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 16px;
+      }
+      .slider__navigation {
+        order: 1;
+        margin-top: 0;
+        justify-content: center;
+      }
+      .swiper-container {
+        order: 2;
+        width: 100%;
+        .swiper-slide {
+          width: 100%;
+          text-align: center;
+          font-size: 24px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.33;
+        }
+      }
+    }
+  }
+  article.services {
+    margin-top: 140px;
+    h2 {
+      margin-top: 16px;
+      font-size: 32px;
+    }
+    .services__list {
+      margin-top: 71px;
+      li {
+        flex-direction: column;
+        text-align: center;
+        h3 {
+          font-size: 24px;
+          font-weight: normal;          
+          line-height: normal;          
+        }
+        p {
+          margin-top: 14px;
+          margin-bottom: 0;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.86;
+        }
+        &.bulk-cargo {
+          .left {
+            order: 2;
+            width: auto;
+            margin: 22px 0 0 0;
+          }
+          .right {
+            order: 1;
+            width: auto;
+            max-width: 400px;
+          }
+        }
+        &.marine-surveys {
+          margin-top: 102px;
+          .left {           
+            width: auto;
+            max-width: 400px;
+            margin: 0;
+          }
+          .right {
+            order: 1;
+            width: auto;
+            margin: 30px 0 0 0;
+          }
+        }
+        &.general-cargo {
+          margin-top: 90px;
+          .left {
+            order: 2;
+            width: auto;
+            margin: 29px 0 0 0;
+          }
+          .right {
+            order: 1;
+            width: auto;
+            max-width: 400px;
+          }
+        }
+      }
+    }
+  }
+  article.other-services {
+    margin-top: 160px;
+    h2 {
+      font-size: 24px;
+      text-align: center;
+    }
+    .other__list {
+      margin-top: 64px;
+      li {
+        margin: 0 0 60px 0;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        img {
+          width: 80px;
+          height: 77px;
+          margin: 0 0 16px 0;
+        }
+        b {
+          font-size: 14px;
+          text-align: center; 
+        }
+      }
+    }
+  }
+  article.mission {
+    margin-top: 100px;
+    padding: 0;
+    height: auto;
+    text-align: center;
+    padding-bottom: 63vw;
+    background-position: left bottom;
+    background-size: 175vw auto;
+    .wrapper {
+      padding: 0 24px;
+    }
+    h2 {
+      font-size: 32px;
+      margin-top: 16px;  
+    }
+    p {
+      font-size: 18px;
+      font-weight: 500;  
+      line-height: 1.78;
+    }
+  }
+  article.about {
+    margin-top: 160px;
+    .wrapper {
+      padding-top: 123vw;
+      height: auto;
+    }
+    .about__bg {
+      left: 38px;
+      .about__bg_1 {
+        height: 109vw;
+      }
+      .about__bg_2 {        
+        height: 82vw;        
+        left: -14px;
+        top: 11vw;
+        transform: translateY(0%);
+      }
+    }
+    .about__description {
+      width: auto;
+      height: auto;
+      h2 {
+        font-size: 32px;
+      }
+      .about__text {
+        margin-top: 28px;
+        font-size: 14px;
+      }
+    }
+  }
+  article.partners {
+    display: none;
+  }
+  article.ready {
+    padding-top: 0;
+    .ready__bg {
+      background-image: linear-gradient(137deg, #2442c0, #19aacc 52%, #00c2af);
+      .map {
+        background: url(../img/map.svg) no-repeat center bottom / auto 55%;
+        .wrapper {
+          .oval-1,
+          .oval-2,
+          .comp {
+            display: none;
+          }
+          h2 {
+            font-size: 32px;
+          }
+          .btn {
+            margin-top: 42px;
+          }
+        }      
+      }
+    }    
+  }
+  footer {
+    padding: 104px 0 80px 0;
+    .wrapper {
+      flex-direction: column;
+    }
+    .footer__logo {
+      width: 200px;
+      order: 1;
+      margin: 0 auto;
+      line-height: 1;
+      a {
+        font-size: 0;
+      }
+    }
+    .footer__contacts {
+      order: 2;
+      margin: 60px auto 0 auto;
+      padding: 0;
+      text-align: center;
+      p {
+        margin-bottom: 40px;  
+      }
+      &::before {
+        display: none;
+      }
+    }
+    .footer__nav {
+      display: none;
+    }
+    .footer__nav_mobile {
+      display: flex;
+    }
+  }
+
+  .modal.register-select {
+    .modal__wrapper {
+      padding: 80px 0;
+      width: calc(100% - 48px);
+      background: #fff url('../img/fill-1.svg') no-repeat right top / contain;      
+      .register-select__list {
+        flex-direction: column;
+        margin-top: 63px;
+        align-items: center;
+        a.btn {
+          margin: 0 0 40px 0;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+      h2 {
+        font-size: 24px;
+      }
+    }    
+  }
+  body.login,
+  body.register {
+    .register__bg {
+      display: none;            
+    }
+    .register__head {
+      h1 {
+        font-size: 32px!important;
+      }
+      p {
+        margin-top: 8px!important;
+        font-size: 16px!important;
+        font-weight: normal!important;
+        line-height: 1.75!important;
+      }
+    }
+    .register__body {
+      width: auto;
+      margin: 0;
+      .register__form {
+        margin-top: 40px;
+      }
+    }
+    .register__footer {
+      font-size: 16px;
+    }
+  }
+
+  .form-control {
+    input {
+      font-size: 14px;
+    }
+    label {
+      font-size: 14px;
+    }
+  }
+}
