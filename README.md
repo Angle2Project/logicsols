@@ -1,6 +1,4 @@
-# Logicsols
-
-![Logicsols](src/img/header-logo.png)
+#[Logicsols](src/img/header-logo.png)
 
 run **npm i**
 
