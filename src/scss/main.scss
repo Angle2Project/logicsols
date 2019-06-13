@@ -245,7 +245,23 @@ article.services {
     font-weight: bold;    
     text-align: center;
     color: #06c1ae;
-    text-transform: uppercase;
+    text-transform: uppercase;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      width: 48px;
+      height: 48px;
+      margin-left: 7px;
+      margin-top: -2px;
+      transition: all 300ms ease;
+      &:hover {
+        transform: scale(1.2);
+      }      
+      img {
+        width: 100%;
+      }
+    }
   }
   h2 {
     margin-top: 16px;
@@ -509,6 +525,14 @@ article.ready {
         }
       }
     }
+  }
+}
+
+.modal.video {
+  iframe {
+    vertical-align: middle;
+    width: 75vw;
+    height: calc(75vw / 1.77);
   }
 }
 

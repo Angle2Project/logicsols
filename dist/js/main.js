@@ -174,7 +174,14 @@ let appInit = function(){
   });
   $('.modal').click(function(e){
     if($(e.target).closest('.modal__wrapper').length)return;
+    if($(this).hasClass('video'))$(this).find('.modal__wrapper').html('');
     $('.modal').fadeOut(200);
+  });
+  $('[data-action="modal-video"]').click(function(e){
+    let iframe = '<iframe src="https://player.vimeo.com/video/322234222?autoplay=1&loop=0&autopause=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+    if($('body').hasClass('menu'))$('body').removeClass('menu');    
+    $('.modal.video').fadeIn(200).find('.modal__wrapper').html(iframe);
+    e.preventDefault();
   });
 
   if($('.swiper-container').length){
