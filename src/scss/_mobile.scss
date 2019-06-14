@@ -17,7 +17,7 @@
       margin: 0;
     }
     .sign {
-      margin-left: 0;
+      margin-left: 30px;
     }
     .nav-button {
       display: block;
@@ -157,6 +157,9 @@
     }
     nav {
       display: none;
+    }
+    .sign {
+      margin-left: 0;
     }
   }
   article.hero {

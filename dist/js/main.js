@@ -201,6 +201,17 @@ let appInit = function(){
   
 };
 
+
+if($('#phone-mask').length){
+  var phoneMask = IMask(
+    document.getElementById('phone-mask'), {
+      mask: '(000)000-00-00'
+    }
+  );  
+}
+
+
+
 // Initial state
 var scrollPos = 0;
 // adding scroll event
